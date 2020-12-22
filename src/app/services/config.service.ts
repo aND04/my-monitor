@@ -18,6 +18,6 @@ export class ConfigService {
   }
 
   getServer(service: string): string {
-    return this.server + service;
+    return 'https://masters-usability.herokuapp.com/api' + service;
   }
 }
